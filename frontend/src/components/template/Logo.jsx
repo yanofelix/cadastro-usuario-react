@@ -1,8 +1,11 @@
 import './Logo.css'
 import React from 'react'
+import Logo from '../../assets/imgs/logorola.png'
 
 export default props => {
     return <aside className="logo">
-        Logo
+        <a href="/" className="logo">
+            <img src={Logo} alt="logo"/>
+        </a>
     </aside>
 }
